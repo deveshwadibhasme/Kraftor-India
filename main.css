@@ -1,0 +1,32 @@
+@import url(./styles/header.css);
+
+@import url(./styles/home.css);
+
+@import url(./styles/footer.css);
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  --font-xs: 12px;
+  --font-sm: 14px;
+  --font-md: 16px;
+  --font-lg: 18px;
+  --font-xl: 20px;
+  --font-xxl: 24px;
+
+ 
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  height: 100%;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
