@@ -17,6 +17,14 @@ function intialize() {
             })
         );
 
+        document.head.appendChild(
+            Object.assign(document.createElement('link'), {
+                rel: 'icon',
+                href: './public/logo.svg',
+                type: 'image/svg+xml'
+            })
+        );
+
 
     });
 
