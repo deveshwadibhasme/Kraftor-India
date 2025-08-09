@@ -17,13 +17,13 @@ function intialize() {
             })
         );
 
-        // document.head.appendChild(
-        //     Object.assign(document.createElement('link'), {
-        //         rel: 'icon',
-        //         href: './public/logo.svg',
-        //         type: 'image/svg+xml'
-        //     })
-        // );
+        document.head.appendChild(
+            Object.assign(document.createElement('link'), {
+                rel: 'icon',
+                href: './assets/images/logo.svg',
+                type: 'image/svg+xml'
+            })
+        );
 
 
     });

@@ -17,6 +17,8 @@
   --font-xl: 20px;
   --font-xxl: 24px;
 
+  --bg-glass: rgba(255, 255, 255, 0.048);
+  --blur-idx: 20px;
  
 }
 
